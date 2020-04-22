@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db5e3cc-0ad3-4f39-acfa-581b4e162e15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ie/tudublin/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ie/tudublin/Gantt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ie/tudublin/Gantt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ie/tudublin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ie/tudublin/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ie/tudublin/Gantt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="697">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#230#236#0" expanded="true" />
@@ -38,16 +37,14 @@
                 <element signature="e#549#550#0" expanded="true" />
                 <element signature="e#581#582#0" expanded="true" />
                 <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ie/tudublin/Task.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="816">
@@ -89,14 +86,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ie/tudublin/Main.java" />
-        <option value="$PROJECT_DIR$/src/ie/tudublin/Gantt.java" />
         <option value="$PROJECT_DIR$/src/ie/tudublin/Task.java" />
+        <option value="$PROJECT_DIR$/src/ie/tudublin/Gantt.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="252" />
-    <option name="y" value="123" />
+    <option name="x" value="458" />
+    <option name="y" value="96" />
     <option name="width" value="2520" />
     <option name="height" value="1800" />
   </component>
@@ -138,7 +135,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587557392993" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587561373966" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SoundMandala">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Gantt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ie.tudublin.Gantt" />
       <module name="java" />
@@ -193,8 +190,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SoundMandala" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SoundMandala" />
         <item itemvalue="Application.Gantt" />
       </list>
     </recent_temporary>
@@ -252,27 +249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ie/tudublin/Gantt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#236#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../OOP-2019-2020/java/src/ie/tudublin/SoundMandala.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
@@ -300,6 +276,25 @@
             <element signature="e#738#739#0" expanded="true" />
             <element signature="e#774#775#0" expanded="true" />
             <element signature="e#855#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ie/tudublin/Gantt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#236#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
           </folding>
         </state>
       </provider>
