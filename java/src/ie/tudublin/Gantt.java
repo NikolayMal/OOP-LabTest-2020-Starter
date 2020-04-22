@@ -59,39 +59,37 @@ public class Gantt extends PApplet
 	public void displayTasks(){
 		fill(255);
 		stroke(255);
-		int days = 31;
-		String test = "TEST";
+		int days = 30;
+		colorMode(HSB);
+		int margin = 25;
+		int right= 70;
+
 
 		textAlign(CENTER);
 
 		// Drawing Lines + Days of the Month
-		for(int i = 1; i < days; i++) {
-			float x = map(i, 0, days, 75, width);
-			text(i, x, height-570);
-			line(x, 50, x, height - 50);
+		for(int i = 1; i <= days; i++) {
+			float x = map(i, 0, days, right, width-right);
+			text(i, x, margin);
+			line(x, margin*2, x, height - margin);
 		}
 
 		// Drawing Tasks
 		for(int j = 0; j < tasks.size(); j++)
 		{
-			Task TaskY = tasks.get(j);
-			// For Each Task :  Task + Start + End
-			float y = map(j, 0, tasks.size(), 75, height);
-			text(TaskY.getTask(), width - 750, y);
+			Task TaskY= tasks.get(j);
+
+			fill(map(j, 0, tasks.size(), 0, 255), 255, 255);
+			stroke(map(j, 0, tasks.size(), 0, 255), 255, 255);
+
+			float y = map(j, 0, tasks.size(), 2 * margin, height - margin);
+			text(tasks.get(j).getTask(), margin, y + margin);
+
+
+			float Start = map(tasks.get(j).getStart(), 1, days, 90, width-right);
+			float End = map(tasks.get(j).getEnd(), 1, days,95, width-right);
+			rect(Start, y + 10, End - Start, 20, 5);
+
 		}
-	}
-
-/*
-map(value, start1, stop1, start2, stop2)
-Parameters
-value	float: the incoming value to be converted
-start1	float: lower bound of the value's current range
-stop1	float: upper bound of the value's current range
-start2	float: lower bound of the value's target range
-stop2	float: upper bound of the value's target range
-*/
-
-	public static void main (String...args){
-		PApplet.main("ie.tudublin.Gantt");
 	}
 }
